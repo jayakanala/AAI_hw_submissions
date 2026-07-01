@@ -182,3 +182,16 @@ Through this project, the following concepts were implemented:
 * Prompt engineering through task descriptions
 * Environment variable management using `.env`
 * Building a complete AI-powered workflow
+
+
+## ⚠️ Version Compatibility
+
+This project was developed and tested using the following package versions:
+
+```text
+crewai==0.130.0
+langchain-groq==0.3.7
+python-dotenv
+```
+
+> **Note:** Newer versions of CrewAI may introduce breaking changes or compatibility issues with `langchain-groq` and Groq models. If you encounter errors related to LLM initialization, tool execution, or API compatibility, it is recommended to use the versions listed above for the best experience.
