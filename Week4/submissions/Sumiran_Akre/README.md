@@ -231,7 +231,6 @@ Bot : Sure thing, Sumiran! Your order has been placed successfully. Here’s the
 
 **Bill**  
 
-```
 ================================================
               B L U E   B I T E S               
       123 Culinary Boulevard, Food Street       
@@ -255,116 +254,9 @@ Bot : Sure thing, Sumiran! Your order has been placed successfully. Here’s the
          Thank you for dining with us!          
                 Visit Us Again!                 
 ================================================
-```
 
 Your total comes to **₹755.20** (including taxes).  
 
 Would you like a hard‑copy of the bill emailed to you, or is there anything else I can help you with?
 ============================================================
-You : 
 ```
-You : place my order of 2 Garlic Naan with 1 Butter Chicken served alongside 1 Mojito
-[ TOOL CALLED ] order_food
-[  TOOL ARGS  ] {'dish_name': ['Garlic Naan'], 'quantity': 2}
-
-========================================
-         ORDER APPROVAL REQUIRED         
-========================================
-Dish Name  : Garlic Naan
-Quantity   : 2
-Price      : Rs. 60.00
-Total      : Rs. 120.00
-----------------------------------------
-========================================
-Approve this order? (yes/no): y
-
-========================================
-         ORDER APPROVAL REQUIRED         
-========================================
-Dish Name  : Butter Chicken
-Quantity   : 1
-Price      : Rs. 380.00
-Total      : Rs. 380.00
-----------------------------------------
-========================================
-Approve this order? (yes/no): y
-
-========================================
-         ORDER APPROVAL REQUIRED         
-========================================
-Dish Name  : Virgin Mojito
-Quantity   : 1
-Price      : Rs. 140.00
-Total      : Rs. 140.00
-----------------------------------------
-========================================
-Approve this order? (yes/no): y
-
-========================================
-          BILL APPROVAL REQUIRED         
-========================================
-================================================
-              B L U E   B I T E S               
-      123 Culinary Boulevard, Food Street       
-             GSTIN: 27AAAAA1111A1Z1             
-------------------------------------------------
- Date: 05-07-2026      Time: 14:17:34           
- Bill No: BB-05141734                           
-------------------------------------------------
- Item Name              Qty     Price     Total 
-------------------------------------------------
- Garlic Naan             2      60.00    120.00 
- Butter Chicken          1     380.00    380.00 
- Virgin Mojito           1     140.00    140.00 
-------------------------------------------------
-  Subtotal:                              640.00 
-  CGST (9%):                              57.60 
-  SGST (9%):                              57.60 
-------------------------------------------------
-  Grand Total:                           755.20 
-================================================
-         Thank you for dining with us!          
-                Visit Us Again!                 
-================================================
-========================================
-Approve this bill? (yes/no): yes
-============================================================
-Bot : Sure thing, Sumiran! Your order has been placed successfully. Here’s the summary and the bill:
-
-**Order Summary**  
-- 2 × Garlic Naan – ₹60 each  
-- 1 × Butter Chicken – ₹380  
-- 1 × Virgin Mojito – ₹140  
-
-**Bill**  
-
-```
-================================================
-              B L U E   B I T E S               
-      123 Culinary Boulevard, Food Street       
-             GSTIN: 27AAAAA1111A1Z1             
-------------------------------------------------
- Date: 05-07-2026      Time: 14:17:40           
- Bill No: BB-05141740                           
-------------------------------------------------
- Item Name              Qty     Price     Total 
-------------------------------------------------
- Garlic Naan             2      60.00    120.00 
- Butter Chicken          1     380.00    380.00 
- Virgin Mojito           1     140.00    140.00 
-------------------------------------------------
-  Subtotal:                              640.00 
-  CGST (9%):                              57.60 
-  SGST (9%):                              57.60 
-------------------------------------------------
-  Grand Total:                           755.20 
-================================================
-         Thank you for dining with us!          
-                Visit Us Again!                 
-================================================
-```
-
-Your total comes to **₹755.20** (including taxes).  
-
-Would you like a hard‑copy of the bill emailed to you, or is there anything else I can help you with?
-============================================================
