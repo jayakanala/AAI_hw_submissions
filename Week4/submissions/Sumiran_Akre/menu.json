@@ -1,0 +1,562 @@
+[
+  {
+    "id": 1,
+    "name": "Tomato Basil Soup",
+    "type": "Soup",
+    "category": "Veg",
+    "quantity": "250 ml",
+    "price": 140.0,
+    "description": "A comforting cream of fresh tomatoes infused with basil and served with croutons.",
+    "prep_time": "10 mins"
+  },
+  {
+    "id": 2,
+    "name": "Sweet Corn Soup",
+    "type": "Soup",
+    "category": "Veg",
+    "quantity": "250 ml",
+    "price": 150.0,
+    "description": "A thick, sweet soup loaded with tender sweet corn kernels and finely chopped vegetables.",
+    "prep_time": "10 mins"
+  },
+  {
+    "id": 3,
+    "name": "Hot & Sour Chicken Soup",
+    "type": "Soup",
+    "category": "Non-Veg",
+    "quantity": "250 ml",
+    "price": 180.0,
+    "description": "A spicy and tangy Chinese soup filled with shredded chicken, mushrooms, and bamboo shoots.",
+    "prep_time": "10 mins"
+  },
+  {
+    "id": 4,
+    "name": "Caesar Salad",
+    "type": "Salad",
+    "category": "Veg",
+    "quantity": "Serves 1",
+    "price": 190.0,
+    "description": "Crisp romaine lettuce tossed in creamy Caesar dressing, topped with parmesan cheese and croutons.",
+    "prep_time": "8 mins"
+  },
+  {
+    "id": 5,
+    "name": "Chicken Caesar Salad",
+    "type": "Salad",
+    "category": "Non-Veg",
+    "quantity": "Serves 1",
+    "price": 240.0,
+    "description": "Classic Caesar salad topped with grilled chicken breast slices and parmesan.",
+    "prep_time": "8 mins"
+  },
+  {
+    "id": 6,
+    "name": "Paneer Tikka",
+    "type": "Starter",
+    "category": "Veg",
+    "quantity": "6 pieces",
+    "price": 280.0,
+    "description": "Succulent cottage cheese cubes marinated in spiced yogurt and grilled in a tandoor.",
+    "prep_time": "18 mins"
+  },
+  {
+    "id": 7,
+    "name": "Chicken Tikka",
+    "type": "Starter",
+    "category": "Non-Veg",
+    "quantity": "6 pieces",
+    "price": 320.0,
+    "description": "Tender chicken chunks marinated in yogurt and aromatic spices, roasted in a clay oven.",
+    "prep_time": "18 mins"
+  },
+  {
+    "id": 8,
+    "name": "Crispy Corn",
+    "type": "Starter",
+    "category": "Veg",
+    "quantity": "Serves 2",
+    "price": 220.0,
+    "description": "Golden sweet corn kernels tossed with spices, garlic, onion, and fresh coriander.",
+    "prep_time": "12 mins"
+  },
+  {
+    "id": 9,
+    "name": "Fish Fingers",
+    "type": "Starter",
+    "category": "Non-Veg",
+    "quantity": "5 pieces",
+    "price": 350.0,
+    "description": "Crispy breaded fish fillets served with homemade tartar sauce.",
+    "prep_time": "12 mins"
+  },
+  {
+    "id": 10,
+    "name": "Hara Bhara Kabab",
+    "type": "Starter",
+    "category": "Veg",
+    "quantity": "6 pieces",
+    "price": 210.0,
+    "description": "Pan-fried patties made of spinach, green peas, mashed potatoes, and Indian spices.",
+    "prep_time": "18 mins"
+  },
+  {
+    "id": 11,
+    "name": "Veg Spring Rolls",
+    "type": "Starter",
+    "category": "Veg",
+    "quantity": "4 pieces",
+    "price": 230.0,
+    "description": "Crispy fried rolls stuffed with seasoned julienned stir-fry vegetables, served with sweet chili sauce.",
+    "prep_time": "12 mins"
+  },
+  {
+    "id": 12,
+    "name": "Chicken Spring Rolls",
+    "type": "Starter",
+    "category": "Non-Veg",
+    "quantity": "4 pieces",
+    "price": 260.0,
+    "description": "Crispy pastry wrapper filled with minced seasoned chicken and stir-fried vegetables.",
+    "prep_time": "12 mins"
+  },
+  {
+    "id": 13,
+    "name": "Chilli Paneer",
+    "type": "Starter",
+    "category": "Veg",
+    "quantity": "Serves 2",
+    "price": 270.0,
+    "description": "Fried paneer chunks tossed with bell peppers and onions in a spicy, savory Indo-Chinese sauce.",
+    "prep_time": "12 mins"
+  },
+  {
+    "id": 14,
+    "name": "Chilli Chicken",
+    "type": "Starter",
+    "category": "Non-Veg",
+    "quantity": "Serves 2",
+    "price": 310.0,
+    "description": "Crispy chicken pieces tossed with fresh green chilies, onions, bell peppers, and soy sauce.",
+    "prep_time": "12 mins"
+  },
+  {
+    "id": 15,
+    "name": "Garlic Bread with Cheese",
+    "type": "Starter",
+    "category": "Veg",
+    "quantity": "4 slices",
+    "price": 180.0,
+    "description": "Oven-toasted French baguette slices smeared with garlic butter and melted mozzarella.",
+    "prep_time": "12 mins"
+  },
+  {
+    "id": 16,
+    "name": "Tandoori Soya Chaap",
+    "type": "Starter",
+    "category": "Veg",
+    "quantity": "6 pieces",
+    "price": 250.0,
+    "description": "Soya bean chops marinated in a rich spiced yogurt mixture and cooked in a tandoor.",
+    "prep_time": "18 mins"
+  },
+  {
+    "id": 17,
+    "name": "Mutton Seekh Kabab",
+    "type": "Starter",
+    "category": "Non-Veg",
+    "quantity": "4 skewers",
+    "price": 390.0,
+    "description": "Spiced minced mutton skewered and grilled in the tandoor till juicy and tender.",
+    "prep_time": "18 mins"
+  },
+  {
+    "id": 18,
+    "name": "Chicken Lollipop",
+    "type": "Starter",
+    "category": "Non-Veg",
+    "quantity": "6 pieces",
+    "price": 290.0,
+    "description": "Spiced chicken wings fried in a lollipop shape, coated in a spicy red Indo-Chinese batter.",
+    "prep_time": "12 mins"
+  },
+  {
+    "id": 19,
+    "name": "Gobi Manchurian",
+    "type": "Starter",
+    "category": "Veg",
+    "quantity": "Serves 2",
+    "price": 200.0,
+    "description": "Crispy cauliflower florets tossed in a tangy, sweet, and slightly spicy Manchurian sauce.",
+    "prep_time": "12 mins"
+  },
+  {
+    "id": 20,
+    "name": "Paneer Butter Masala",
+    "type": "Main Course",
+    "category": "Veg",
+    "quantity": "Serves 2",
+    "price": 340.0,
+    "description": "Rich and creamy dish of paneer cooked in a tomato, butter, and cashew-based gravy.",
+    "prep_time": "20 mins"
+  },
+  {
+    "id": 21,
+    "name": "Butter Chicken",
+    "type": "Main Course",
+    "category": "Non-Veg",
+    "quantity": "Serves 2",
+    "price": 380.0,
+    "description": "Tandoori chicken pieces simmered in a smooth, velvety, spiced tomato and butter gravy.",
+    "prep_time": "20 mins"
+  },
+  {
+    "id": 22,
+    "name": "Dal Makhani",
+    "type": "Main Course",
+    "category": "Veg",
+    "quantity": "Serves 2",
+    "price": 290.0,
+    "description": "Slow-cooked black lentils and red kidney beans, enriched with fresh cream and butter.",
+    "prep_time": "20 mins"
+  },
+  {
+    "id": 23,
+    "name": "Mutton Rogan Josh",
+    "type": "Main Course",
+    "category": "Non-Veg",
+    "quantity": "Serves 2",
+    "price": 450.0,
+    "description": "A classic Kashmiri lamb dish cooked with a flavorful onion, yogurt, and saffron-infused gravy.",
+    "prep_time": "25 mins"
+  },
+  {
+    "id": 24,
+    "name": "Kadhai Paneer",
+    "type": "Main Course",
+    "category": "Veg",
+    "quantity": "Serves 2",
+    "price": 330.0,
+    "description": "Cottage cheese cubes cooked with bell peppers, tomatoes, and freshly ground kadhai spices.",
+    "prep_time": "20 mins"
+  },
+  {
+    "id": 25,
+    "name": "Mix Vegetable Curry",
+    "type": "Main Course",
+    "category": "Veg",
+    "quantity": "Serves 2",
+    "price": 270.0,
+    "description": "A healthy assortment of seasonal vegetables simmered in a spiced onion-tomato gravy.",
+    "prep_time": "20 mins"
+  },
+  {
+    "id": 26,
+    "name": "Malai Kofta",
+    "type": "Main Course",
+    "category": "Veg",
+    "quantity": "Serves 2",
+    "price": 350.0,
+    "description": "Paneer and potato dumplings (koftas) served in a rich, sweetish cream and cashew gravy.",
+    "prep_time": "20 mins"
+  },
+  {
+    "id": 27,
+    "name": "Chana Masala",
+    "type": "Main Course",
+    "category": "Veg",
+    "quantity": "Serves 2",
+    "price": 240.0,
+    "description": "Soft chickpeas cooked in a spicy, tangy, and thick gravy of tomatoes, onions, and tea decoction.",
+    "prep_time": "20 mins"
+  },
+  {
+    "id": 28,
+    "name": "Chicken Korma",
+    "type": "Main Course",
+    "category": "Non-Veg",
+    "quantity": "Serves 2",
+    "price": 370.0,
+    "description": "Chicken pieces cooked in a luxurious curry flavored with cardamom, almonds, and yogurt.",
+    "prep_time": "20 mins"
+  },
+  {
+    "id": 29,
+    "name": "Fish Curry",
+    "type": "Main Course",
+    "category": "Non-Veg",
+    "quantity": "Serves 2",
+    "price": 410.0,
+    "description": "Goan style fish curry prepared with fresh coconut milk, tamarind, and local spices.",
+    "prep_time": "20 mins"
+  },
+  {
+    "id": 30,
+    "name": "Egg Curry",
+    "type": "Main Course",
+    "category": "Non-Veg",
+    "quantity": "Serves 2",
+    "price": 230.0,
+    "description": "Boiled eggs cooked in a homestyle onion-tomato gravy with Indian spices.",
+    "prep_time": "20 mins"
+  },
+  {
+    "id": 31,
+    "name": "Dal Tadka",
+    "type": "Main Course",
+    "category": "Veg",
+    "quantity": "Serves 2",
+    "price": 210.0,
+    "description": "Yellow pigeon pea lentils cooked and tempered with ghee, cumin seeds, garlic, and dry red chilies.",
+    "prep_time": "20 mins"
+  },
+  {
+    "id": 32,
+    "name": "Veg Biryani",
+    "type": "Main Course",
+    "category": "Veg",
+    "quantity": "Serves 2",
+    "price": 290.0,
+    "description": "Aromatic Basmati rice layered with spiced vegetables, saffron, and fresh mint, served with raita.",
+    "prep_time": "25 mins"
+  },
+  {
+    "id": 33,
+    "name": "Chicken Biryani",
+    "type": "Main Course",
+    "category": "Non-Veg",
+    "quantity": "Serves 2",
+    "price": 360.0,
+    "description": "Classic layered rice dish with tender chicken pieces, saffron, and spices, cooked in dum.",
+    "prep_time": "25 mins"
+  },
+  {
+    "id": 34,
+    "name": "Mutton Dum Biryani",
+    "type": "Main Course",
+    "category": "Non-Veg",
+    "quantity": "Serves 2",
+    "price": 440.0,
+    "description": "Slow-cooked dum Basmati rice layered with marinated mutton pieces, ghee, and fried onions.",
+    "prep_time": "25 mins"
+  },
+  {
+    "id": 35,
+    "name": "Jeera Rice",
+    "type": "Main Course",
+    "category": "Veg",
+    "quantity": "Serves 2",
+    "price": 160.0,
+    "description": "Basmati rice tempered with cumin seeds, ghee, and fresh coriander.",
+    "prep_time": "12 mins"
+  },
+  {
+    "id": 36,
+    "name": "Steamed Basmati Rice",
+    "type": "Main Course",
+    "category": "Veg",
+    "quantity": "Serves 2",
+    "price": 130.0,
+    "description": "Fragrant and fluffy long-grain steamed Basmati rice.",
+    "prep_time": "12 mins"
+  },
+  {
+    "id": 37,
+    "name": "Plain Naan",
+    "type": "Bread",
+    "category": "Veg",
+    "quantity": "1 piece",
+    "price": 50.0,
+    "description": "Traditional tandoor-baked leavened flatbread.",
+    "prep_time": "5 mins"
+  },
+  {
+    "id": 38,
+    "name": "Butter Naan",
+    "type": "Bread",
+    "category": "Veg",
+    "quantity": "1 piece",
+    "price": 55.0,
+    "description": "Tandoor-baked leavened flatbread brushed generously with fresh melted butter.",
+    "prep_time": "5 mins"
+  },
+  {
+    "id": 39,
+    "name": "Garlic Naan",
+    "type": "Bread",
+    "category": "Veg",
+    "quantity": "1 piece",
+    "price": 60.0,
+    "description": "Leavened flatbread topped with minced garlic and butter, baked in a tandoor.",
+    "prep_time": "5 mins"
+  },
+  {
+    "id": 40,
+    "name": "Tandoori Roti",
+    "type": "Bread",
+    "category": "Veg",
+    "quantity": "1 piece",
+    "price": 30.0,
+    "description": "Whole wheat flatbread baked in a clay oven.",
+    "prep_time": "5 mins"
+  },
+  {
+    "id": 41,
+    "name": "Butter Roti",
+    "type": "Bread",
+    "category": "Veg",
+    "quantity": "1 piece",
+    "price": 35.0,
+    "description": "Whole wheat clay oven flatbread smeared with butter.",
+    "prep_time": "5 mins"
+  },
+  {
+    "id": 42,
+    "name": "Laccha Paratha",
+    "type": "Bread",
+    "category": "Veg",
+    "quantity": "1 piece",
+    "price": 50.0,
+    "description": "Multi-layered flaky whole wheat bread baked in the tandoor.",
+    "prep_time": "5 mins"
+  },
+  {
+    "id": 43,
+    "name": "Gulab Jamun",
+    "type": "Dessert",
+    "category": "Veg",
+    "quantity": "2 pieces",
+    "price": 110.0,
+    "description": "Warm, soft milk dumplings soaked in rose and cardamom flavored sugar syrup.",
+    "prep_time": "5 mins"
+  },
+  {
+    "id": 44,
+    "name": "Chocolate Lava Cake",
+    "type": "Dessert",
+    "category": "Veg",
+    "quantity": "1 piece",
+    "price": 180.0,
+    "description": "Rich chocolate cake with a molten warm chocolate center, served with vanilla ice cream.",
+    "prep_time": "12 mins"
+  },
+  {
+    "id": 45,
+    "name": "Rasmalai",
+    "type": "Dessert",
+    "category": "Veg",
+    "quantity": "2 pieces",
+    "price": 130.0,
+    "description": "Soft cottage cheese patties flattened and soaked in sweetened, thickened milk flavored with cardamom.",
+    "prep_time": "5 mins"
+  },
+  {
+    "id": 46,
+    "name": "Vanilla Ice Cream",
+    "type": "Dessert",
+    "category": "Veg",
+    "quantity": "1 scoop",
+    "price": 80.0,
+    "description": "Classic creamy vanilla bean ice cream.",
+    "prep_time": "5 mins"
+  },
+  {
+    "id": 47,
+    "name": "Chocolate Ice Cream",
+    "type": "Dessert",
+    "category": "Veg",
+    "quantity": "1 scoop",
+    "price": 90.0,
+    "description": "Indulgent rich dark chocolate ice cream.",
+    "prep_time": "5 mins"
+  },
+  {
+    "id": 48,
+    "name": "Sizzling Brownie",
+    "type": "Dessert",
+    "category": "Veg",
+    "quantity": "Serves 1",
+    "price": 220.0,
+    "description": "Warm chocolate brownie served on a hot sizzler plate with vanilla ice cream and hot chocolate fudge sauce.",
+    "prep_time": "12 mins"
+  },
+  {
+    "id": 49,
+    "name": "Virgin Mojito",
+    "type": "Beverage",
+    "category": "Veg",
+    "quantity": "300 ml",
+    "price": 140.0,
+    "description": "A refreshing blend of fresh mint leaves, lime juice, simple syrup, and club soda.",
+    "prep_time": "5 mins"
+  },
+  {
+    "id": 50,
+    "name": "Mango Lassi",
+    "type": "Beverage",
+    "category": "Veg",
+    "quantity": "300 ml",
+    "price": 120.0,
+    "description": "A thick, creamy traditional Indian yogurt drink blended with fresh sweet mangoes.",
+    "prep_time": "5 mins"
+  },
+  {
+    "id": 51,
+    "name": "Sweet Lassi",
+    "type": "Beverage",
+    "category": "Veg",
+    "quantity": "300 ml",
+    "price": 100.0,
+    "description": "Traditional sweet blended yogurt drink garnished with cardamom and nuts.",
+    "prep_time": "5 mins"
+  },
+  {
+    "id": 52,
+    "name": "Salted Lassi",
+    "type": "Beverage",
+    "category": "Veg",
+    "quantity": "300 ml",
+    "price": 100.0,
+    "description": "Traditional savory yogurt drink flavored with roasted cumin seeds and black salt.",
+    "prep_time": "5 mins"
+  },
+  {
+    "id": 53,
+    "name": "Fresh Lime Soda",
+    "type": "Beverage",
+    "category": "Veg",
+    "quantity": "300 ml",
+    "price": 90.0,
+    "description": "Freshly squeezed lime juice with club soda, served sweet, salted, or mixed.",
+    "prep_time": "5 mins"
+  },
+  {
+    "id": 54,
+    "name": "Cold Coffee with Ice Cream",
+    "type": "Beverage",
+    "category": "Veg",
+    "quantity": "300 ml",
+    "price": 150.0,
+    "description": "Rich blended cold coffee topped with a scoop of vanilla ice cream.",
+    "prep_time": "5 mins"
+  },
+  {
+    "id": 55,
+    "name": "Masala Chai",
+    "type": "Beverage",
+    "category": "Veg",
+    "quantity": "150 ml",
+    "price": 50.0,
+    "description": "Brewed black tea infused with ginger, cardamom, cloves, and milk.",
+    "prep_time": "7 mins"
+  },
+  {
+    "id": 56,
+    "name": "Mineral Water",
+    "type": "Beverage",
+    "category": "Veg",
+    "quantity": "1 Litre",
+    "price": 40.0,
+    "description": "Packaged premium purified drinking water.",
+    "prep_time": "1 min"
+  }
+]
